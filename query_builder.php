@@ -4,7 +4,9 @@
 #seelct list
 #join list 
 #where list
-#group by list
+#group by list 
+#combine all of them
+
 class QueryBuilderUtils {
 	public $SELECT_ITEM = "SELECT \n"
 	function syntaxify($string_list) {
