@@ -10,18 +10,7 @@ $_REDSHIFT_SERVERS = array(
     // https://s3.amazonaws.com/redshift-downloads/redshift-ssl-ca-cert.pem
     'sslrootcert' => 'ssl/redshift-ssl-ca-cert.pem', //as provided by aws
     'options' => '--client_encoding=UTF8',
-  )/*,
-  //example extra host..
-  'host_2' => array(
-    'host' => 'host-2.us-east-1.redshift.amazonaws.com',
-    'port' => 5439,
-    'dbname' => 'example',
-    'user' => 'root',
-    'password' => '',
-    'sslmode' => 'verify-ca',
-    'sslrootcert' => 'ssl/redshift-ssl-ca-cert.pem',
-    'options' => '--client_encoding=UTF8',
-  )*/
+  )
 );
 class Connection {
   
