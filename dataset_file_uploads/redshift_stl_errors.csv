@@ -1,0 +1,40 @@
+0,padbmaster,2014-10-20 07:02:39,4926,32,/home/awsrsqa/padb/src/pg/src/backend/libpq/pqcomm.c,1956,,pq_flush: could not send data to client: Broken pipe
+0,pulse1,2014-10-20 07:02:00,26790,0,/home/awsrsqa/padb/src/sys/health_check.cpp,41,CRITICAL_PROCESS_MISSING,Process diskman1 (26784) is not running.
+0,pulse0,2014-10-20 07:02:00,13532,0,/home/awsrsqa/padb/src/sys/health_check.cpp,41,CRITICAL_PROCESS_MISSING,Process diskman0 (13510) is not running.
+0,pulse2,2014-10-20 07:01:59,23537,0,/home/awsrsqa/padb/src/sys/health_check.cpp,41,CRITICAL_PROCESS_MISSING,Process diskman2 (23531) is not running.
+0,pulse,2014-10-20 07:01:58,6397,0,/home/awsrsqa/padb/src/sys/health_check.cpp,41,CRITICAL_PROCESS_MISSING,Process sched (6344) is not running.
+100,padbmaster,2014-10-20 07:01:53,1869,0,/home/awsrsqa/padb/src/sys/xen_execute.cpp,311,,A fatal error occurred. The database will be restarted.
+100,padbmaster,2014-10-20 07:01:53,19341,2,/home/awsrsqa/padb/src/sys/xen_execute.cpp,311,,A fatal error occurred. The database will be restarted.
+100,padbmaster,2014-10-20 07:01:53,2215,2,/home/awsrsqa/padb/src/sys/xen_execute.cpp,311,,A fatal error occurred. The database will be restarted.
+0,diskman2,2014-10-20 07:01:53,1930,511,/home/awsrsqa/padb/src/sys/column.cpp,183,Process diskman2 with pid = 23531 exited due to signal 11,Process crashed
+0,sched,2014-10-20 07:01:53,6344,1026,/home/awsrsqa/padb/src/sys/sched_main.cpp,72,process received fatal signal,"Process diskman1(pid=26784),sig=11, query id=0"
+100,padbmaster,2014-10-20 07:01:53,31095,2,/home/awsrsqa/padb/src/sys/xen_execute.cpp,311,,A fatal error occurred. The database will be restarted.
+1,padbmaster,2014-10-20 07:01:53,24467,2,/home/awsrsqa/padb/src/sys/xen_execute.cpp,311,,A fatal error occurred. The database will be restarted.
+0,diskman0,2014-10-20 07:01:53,11319,511,/home/awsrsqa/padb/src/sys/column.cpp,183,Process diskman0 with pid = 13510 exited due to signal 11,Process crashed
+0,diskman1,2014-10-20 07:01:53,30923,511,/home/awsrsqa/padb/src/sys/column.cpp,183,Process diskman1 with pid = 26784 exited due to signal 11,Process crashed
+0,padbmaster,2014-10-19 03:22:24,7094,32,/home/awsrsqa/padb/src/pg/src/backend/libpq/pqcomm.c,1956,,pq_flush: could not send data to client: Broken pipe
+0,sched,2014-10-19 03:21:40,1596,1026,/home/awsrsqa/padb/src/sys/sched_main.cpp,72,process received fatal signal,"Process diskman2(pid=16830),sig=11, query id=0"
+100,padbmaster,2014-10-19 03:21:40,12572,2,/home/awsrsqa/padb/src/sys/xen_execute.cpp,311,,A fatal error occurred. The database will be restarted.
+0,diskman1,2014-10-19 03:21:40,26390,511,/home/awsrsqa/padb/src/sys/column.cpp,183,Process diskman1 with pid = 19856 exited due to signal 11,Process crashed
+0,diskman2,2014-10-19 03:21:40,23140,511,/home/awsrsqa/padb/src/sys/column.cpp,183,Process diskman2 with pid = 16830 exited due to signal 11,Process crashed
+0,diskman0,2014-10-19 03:21:40,13146,511,/home/awsrsqa/padb/src/sys/column.cpp,183,Process diskman0 with pid = 4661 exited due to signal 11,Process crashed
+0,padbmaster,2014-10-18 07:09:53,2448,32,/home/awsrsqa/padb/src/pg/src/backend/libpq/pqcomm.c,1956,,pq_flush: could not send data to client: Broken pipe
+1,padbmaster,2014-10-18 07:08:44,12126,2,/home/awsrsqa/padb/src/sys/xen_execute.cpp,311,,A fatal error occurred. The database will be restarted.
+0,sched,2014-10-18 07:08:44,8343,1026,/home/awsrsqa/padb/src/sys/sched_main.cpp,72,process received fatal signal,"Process diskman0(pid=24838),sig=11, query id=0"
+100,padbmaster,2014-10-18 07:08:44,14873,2,/home/awsrsqa/padb/src/sys/xen_execute.cpp,311,,A fatal error occurred. The database will be restarted.
+0,diskman2,2014-10-18 07:08:43,16465,511,/home/awsrsqa/padb/src/sys/column.cpp,183,Process diskman2 with pid = 20162 exited due to signal 11,Process crashed
+0,diskman1,2014-10-18 07:08:43,19402,511,/home/awsrsqa/padb/src/sys/column.cpp,183,Process diskman1 with pid = 18110 exited due to signal 11,Process crashed
+0,diskman0,2014-10-18 07:08:43,4296,511,/home/awsrsqa/padb/src/sys/column.cpp,183,Process diskman0 with pid = 24838 exited due to signal 11,Process crashed
+1,padbmaster,2014-10-17 06:59:34,16287,2,/home/awsrsqa/padb/src/pg/src/backend/utils/init/postinit.c,187,,"database ""template0"" is not currently accepting connections"
+100,query0_56,2014-10-15 22:48:39,25380,9001,/home/awsrsqa/padb/src/sys/table_s3_scanner.cpp,348,Failed writing body (0 != 16384) Cause: Failed to inflateinvalid or incomplete deflate data. zlib er,S3 key being read : s3://af-mrdata/segment_syncs/combined/2014/10/14/storm_search.gz/2130.gz
+100,padbmaster,2014-10-14 19:05:46,10946,8001,/home/awsrsqa/padb/src/sys/s3_utility.cpp,539,The specified S3 prefix 'de/search/raw/2014/10/13' does not exist,
+100,query2_33,2014-10-14 19:05:20,23635,9001,/home/awsrsqa/padb/src/sys/table_s3_scanner.cpp,348,Failed writing body (0 != 3506) Cause: Failed to inflateinvalid or incomplete deflate data. zlib err,S3 key being read : s3://af-mrdata/segment_syncs/combined/2014/10/13/storm_search.gz/1700.gz
+100,query2_33,2014-10-14 19:05:18,23635,8001,/home/awsrsqa/padb/src/sys/cg_util.cpp,1295,"Epoch time copy out of acceptable range of [-62167219200, 253402300799]",time being copied: 4444373465982054479
+100,query2_33,2014-10-14 19:05:18,23635,8001,/home/awsrsqa/padb/src/sys/cg_util.cpp,1295,"Epoch time copy out of acceptable range of [-62167219200, 253402300799]",time being copied: 459947955301
+100,query2_33,2014-10-14 19:05:18,23635,8001,/home/awsrsqa/padb/src/sys/cg_util.cpp,1295,"Epoch time copy out of acceptable range of [-62167219200, 253402300799]",time being copied: 459947955301
+100,query2_33,2014-10-14 19:05:18,23635,8001,/home/awsrsqa/padb/src/sys/cg_util.cpp,1295,"Epoch time copy out of acceptable range of [-62167219200, 253402300799]",time being copied: 459947955301
+100,query2_33,2014-10-14 19:05:18,23635,8001,/home/awsrsqa/padb/src/sys/cg_util.cpp,1295,"Epoch time copy out of acceptable range of [-62167219200, 253402300799]",time being copied: 10051025226947
+100,query2_33,2014-10-14 19:05:18,23635,8001,/home/awsrsqa/padb/src/sys/cg_util.cpp,1295,"Epoch time copy out of acceptable range of [-62167219200, 253402300799]",time being copied: 377664650612
+100,query2_33,2014-10-14 19:05:18,23635,8001,/home/awsrsqa/padb/src/sys/cg_util.cpp,1295,"Epoch time copy out of acceptable range of [-62167219200, 253402300799]",time being copied: 6443730030929550051
+100,query2_33,2014-10-14 19:05:18,23635,8001,/home/awsrsqa/padb/src/sys/cg_util.cpp,1295,"Epoch time copy out of acceptable range of [-62167219200, 253402300799]",time being copied: 7373511509825931221
+100,query2_33,2014-10-14 19:05:18,23635,8001,/home/awsrsqa/padb/src/sys/cg_util.cpp,1295,"Epoch time copy out of acceptable range of [-62167219200, 253402300799]",time being copied: 4308762102926781
